@@ -1,4 +1,4 @@
--Wtf- What is ptufr ?
+~~Wtf~~ What is ptufr ?
 ======================
 ptufr is a simple script that executes screen grabber,
 uploads screenshot via http post query and places url into X clipboard
