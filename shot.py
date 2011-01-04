@@ -17,7 +17,8 @@ def shot():
 	return filename, filepath
 
 def clip(text):
-	system('echo "%s" | xsel -b' % text)
+	
+	system('echo "%s" | xsel -b -i' % text)
 
 def up(filepath):
 	c = pycurl.Curl()
